@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Julekort | m4x1447</title>
+</head>
+
+<body>
+    <h1 class="indextitle">Julekort</h1>
+
+    <div class="contentContainer" id="createbox">
+        <p>Her kan du lage ditt eget julekort</p>
+
+        <div>
+            <h4>Overskrift:</h4>
+            <input type="text" name="cardtitle" id="cardTitle1">
+        </div>
+
+        <div>
+            <h4>Tekst:</h4>
+            <textarea id="cardText"></textarea>
+        </div>
+
+        <div>
+            <h4>Fra:</h4>
+            <input type="text" name="user-id" id="cardFrom">
+        </div>
+
+
+        <div>
+            <p class="p">Bilde:</p>
+            <select name="bilde" id="bilde">
+                <option value="1">Juletrær</option>
+                <option value="2">Nisse</option>
+            </select>
+        </div>
+
+        <div>
+            <form action="/action_page.php">
+                <label for="favcolor">Skriftfarge:</label>
+                <input type="color" id="textcolor" name="favcolor" value="#ffffff"><br><br>
+            </form>
+        </div>
+
+
+        <a class="lagkort" onclick="createCard()">Lag Kort</a>
+    </div>
+
+    <div class="thisdoesnotexist"></div>
+
+    <div class="card-display" id="newCard">
+        <h2>God Jul og godt nyttår!</h2>
+        <div id="cardDisplay">
+            <!-- når du klikker "Lag Kort"-->
+            <div>
+
+                <!-- bilde du velger kommer her -->
+
+                <img id="newimage">
+
+                <h3 id="newcardtitle"></h3>
+                <p id="newcardtext"></p>
+                <h3 id="newcardfrom">Fra: </h3>
+
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="buttoncontainer" id="buttoncontainer">
+        <div class="buttons">
+            <input type="button" value="Lag nytt kort" onclick="newPage()"/>
+            <input type="button" value="Skriv ut" onclick="printPage()"/>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

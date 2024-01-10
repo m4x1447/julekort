@@ -1,0 +1,102 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #cb1313;
+    background: -moz-radial-gradient(center,ellipse cover,#cb1313 1%,#73050e 86%);
+    background: -webkit-radial-gradient(center,ellipse cover,#cb1313 1%,#73050e 86%);
+    background: radial-gradient(ellipse at center,#cb1313 1%,#73050e 86%);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.indextitle {
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 140px;
+}
+
+h4 {
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+}
+
+.p {
+    display: inline-block;
+}
+
+select {
+    display: inline-block;
+}
+
+.contentContainer {
+    padding: 20px;
+    text-align: left;
+    margin: auto;
+    width: 400px;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.lagkort  {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: rgb(200, 200, 20 0);
+}
+
+.lagkort:hover {
+    cursor: pointer;
+}
+
+.thisdoesnotexist {
+    height: 40px;
+}
+
+.newcard {
+    background-color: white;
+}
+
+#newCard {
+    display: none;
+}
+
+.card-display {
+    color: white;
+    padding: 8px;
+    width: 420px;
+    margin: auto;
+    text-align: center;
+    background-image: url(/images/background-1088651_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: rgba(255, 0, 0, 0);
+    border-style: solid;
+    border-radius: 40px;
+}
+
+
+.card-display img {
+    width: 80px;
+    height: 80px;
+}
+
+
+.buttoncontainer {
+    display: none;
+    position: fixed;
+    bottom: 8px;
+    left: 830px; 
+    right: 830px;  
+    padding: 13px; 
+    text-align: center; 
+}
+
+ 
